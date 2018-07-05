@@ -88,7 +88,7 @@ sudo echo "python & pip installed" >> /opt/fsi/install.log
 # python3
 echo "installing python3 & pip3"
 sudo apt install -y python3 python-pip3
-sudo echo "python3 % pip3 installed" >> /opt/fsi/install.log
+sudo echo "python3 & pip3 installed" >> /opt/fsi/install.log
 
 ### install nextcloud ###
 echo "installing nextcloud"
