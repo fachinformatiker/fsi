@@ -14,7 +14,7 @@ echo ""
 # Create destination folder
 echo "creating setup folder"
 FSI="/opt/fsi"
-mkdir -p ${FSI}
+sudo mkdir -p ${FSI}
 
 # updates
 echo "installing updates"
