@@ -1,0 +1,2 @@
+# fsi
+fachinformatiker server installer
