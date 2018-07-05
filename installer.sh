@@ -90,15 +90,6 @@ echo "installing python3 & pip3"
 sudo apt install -y python3 python-pip3
 sudo echo "python3 % pip3 installed" >> ${FSI}/install.log
 
-# root access to phpmyadmin
-echo "enabling root access via phpmyadmin"
-sudo mysql -u root
-		CREATE USER 'mysql_root'@'localhost' IDENTIFIED BY 'changeme';
-		GRANT ALL PRIVILEGES ON *.* TO 'mysql_root'@'localhost' WITH GRANT OPTION;
-		FLUSH PRIVILEGES;
-		exit
-sudo echo "root access via phpmyadmin activated" >> ${FSI}/install.log
-
 ### install nextcloud ###
 echo "installing nextcloud"
 wget https://download.nextcloud.com/server/releases/latest.tar.bz2
